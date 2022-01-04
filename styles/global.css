@@ -1,0 +1,17 @@
+:root {
+  --vermelho: #e50914;
+  --preto: #141414;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--preto);
+  font-family: "Times New Roman", Times, serif;
+  color: #fff;
+}
