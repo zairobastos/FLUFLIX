@@ -1,0 +1,65 @@
+main {
+  height: 36.188rem;
+  background-size: cover;
+}
+main .filme-principal {
+  font-size: 1rem;
+
+  background-image: linear-gradient(
+      to right,
+      rgba(23.92%, 10.98%, 6.67%, 1) 150px,
+      rgba(23.92%, 10.98%, 6.67%, 0.84) 100%
+    ),
+    url(../resources/img/fundo.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+main .filme-principal .container {
+  margin-bottom: 2.5rem;
+  padding-top: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  width: 70%;
+  margin-left: 2rem;
+}
+
+main .filme-principal .container .titulo {
+  font-size: 2.5rem;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+main .filme-principal .botoes {
+  display: flex;
+  gap: 0.938rem;
+  width: 70%;
+  margin-left: 2rem;
+}
+main .filme-principal .botoes .botao {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: none;
+  color: #fff;
+
+  padding: 0.938rem 1.876rem;
+  font-size: 0.75rem;
+
+  cursor: pointer;
+  transition: all 0.25s;
+
+  display: flex;
+  align-items: center;
+  gap: 0.313rem;
+}
+main .filme-principal .botoes .botao:hover {
+  background-color: #fff;
+  color: #000;
+  transition: all 0.25s;
+}
