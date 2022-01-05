@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
 :root {
-  --vermelho: #e50914;
-  --preto: #141414;
+  --grena: #6e182c;
+  --verde: #01633d;
+  --branco: #fff;
 }
 
 * {
@@ -11,7 +14,12 @@
 }
 
 body {
-  background-color: var(--preto);
-  font-family: "Times New Roman", Times, serif;
+  background-color: var(--branco);
+  font-family: "Inter", sans-serif;
   color: #fff;
+  font-weight: 400;
+}
+
+html {
+  scroll-behavior: smooth;
 }

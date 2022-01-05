@@ -5,12 +5,8 @@ main {
 main .filme-principal {
   font-size: 1rem;
 
-  background-image: linear-gradient(
-      to right,
-      rgba(23.92%, 10.98%, 6.67%, 1) 150px,
-      rgba(23.92%, 10.98%, 6.67%, 0.84) 100%
-    ),
-    url(../resources/img/fundo.jpg);
+  background-image: linear-gradient(to right, #01633dbe 150px, #01633d7c 100%),
+    url(../resources/img/torcidaflu.jpg);
   background-size: cover;
   background-repeat: no-repeat;
 
@@ -33,8 +29,6 @@ main .filme-principal .container {
 
 main .filme-principal .container .titulo {
   font-size: 2.5rem;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
 }
 
 main .filme-principal .botoes {
@@ -42,6 +36,7 @@ main .filme-principal .botoes {
   gap: 0.938rem;
   width: 70%;
   margin-left: 2rem;
+  flex-wrap: nowrap;
 }
 main .filme-principal .botoes .botao {
   background-color: rgba(0, 0, 0, 0.5);
@@ -56,7 +51,11 @@ main .filme-principal .botoes .botao {
 
   display: flex;
   align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
   gap: 0.313rem;
+
+  width: 200px;
 }
 main .filme-principal .botoes .botao:hover {
   background-color: #fff;

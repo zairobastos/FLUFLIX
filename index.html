@@ -11,6 +11,8 @@
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/carossel.css">
+    <link rel="stylesheet" href="styles/responsividade.css">
+    <link rel="stylesheet" href="styles/footer.css">
 
     <!--Font Awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
@@ -21,19 +23,22 @@
 </head>
 <body>
     <header>
-        <h2>NETFLIX</h2>
+        <h2>FLUFLIX</h2>
+        <figure>
+            <img src="resources/img/escudoFlu.svg" alt="Escudo do maior clube do mundo">
+        </figure>
         <nav>
-            <a href="">Inicio</a>
-            <a href="">Séries</a>
-            <a href="">Filmes</a>
-            <a href="">Documentário</a>
+            <a href="#inicio">Inicio</a>
+            <a href="#bastidores">Bastidores</a>
+            <a href="#giro-do-flu">Giro do FLU</a>
+            <a href="https://sociofutebol.com.br/" target="_blank">Seja SÓCIO</a>
         </nav>
     </header>
     <main>
-        <div class="filme-principal">
+        <div class="filme-principal" id="inicio">
             <div class="container">
-                <h3 class="titulo">Sobrenatural</h3>
-                <p class="descricao">Os irmãos Dean e Sam vasculham o país em busca de atividades paranormais, brigando com demônios, fantasmas e monstros no caminho.</p>
+                <h3 class="titulo">FLUMINENSE FC</h3>
+                <p class="descricao">Fundado em 21 de julho de 1902, por Oscar Cox, jovem filho de um cidadão inglês vice-cônsul da Inglaterra no Equador, o Fluminense Football Club levava, à época, as cores cinza e branco. Cox é um dos grandes responsáveis pela chegada do futebol ao Brasil.</p>
             </div>
             <div class="botoes">
                 <button role="button" class="botao"><i class="fas fa-play"></i> ASSISTIR AGORA</button>
@@ -42,40 +47,120 @@
         </div>
     </main>
 
-    <div class="carossel-filmes">
+    <div class="carossel-filmes" id="bastidores">
+        <h2>Bastidores</h2>
         <div class="owl-carousel owl-theme">
             <div class="item">
-                <img class="box-image" src="resources/img/mini1.jpg" alt="miniatura de filme">
+                <a href="https://www.youtube.com/watch?v=fG7_4xPufD0&list=PLP_paXYqkDQ_SB7wkhFvjj4s855_gj_tS&index=7&ab_channel=FluminenseFootballClub" target="_blank">
+                    <img class="box-image" src="resources/img/flu3x1fla.jpg" alt="click na imagem e vá ao vídeo" legend="click na imagem e vá ao vídeo">
+                </a>
             </div>
             <div class="item">
-                <img class="box-image" src="resources/img/mini2.jpg" alt="miniatura de filme">
+                <a href="https://www.youtube.com/watch?v=_tOCRXOefnY&ab_channel=FluminenseFootballClub" target="_blank">
+                    <img class="box-image" src="resources/img/flu2x1fla.jpg" alt="click na imagem e vá ao vídeo" legend="click na imagem e vá ao vídeo">
+                </a>
             </div>
             <div class="item">
-                <img class="box-image" src="resources/img/mini3.jpg" alt="miniatura de filme">
+                <a href="https://www.youtube.com/watch?v=7HA1_bhc_Es&ab_channel=FluminenseFootballClub" target="_blank">
+                    <img class="box-image" src="resources/img/flu1x0fla.jpg" alt="click na imagem e vá ao vídeo" legend="click na imagem e vá ao vídeo">
+                </a>
             </div>
             <div class="item">
-                <img class="box-image" src="resources/img/mini4.jpg" alt="miniatura de filme">
+                <a href="https://www.youtube.com/watch?v=A3h4ZtU9vfQ&ab_channel=FluminenseFootballClub" target="_blank">
+                    <img class="box-image" src="resources/img/flu1x0inter.jpg" alt="click na imagem e vá ao vídeo" legend="click na imagem e vá ao vídeo">
+                </a>
             </div>
             <div class="item">
-                <img class="box-image" src="resources/img/mini5.jpg" alt="miniatura de filme">
+                <a href="https://www.youtube.com/watch?v=fknhLNIMKA4&ab_channel=FluminenseFootballClub" target="_blank">
+                    <img class="box-image" src="resources/img/flu2x0Bot.jpg" alt="click na imagem e vá ao vídeo" legend="click na imagem e vá ao vídeo">
+                </a>
             </div>
             <div class="item">
-                <img class="box-image" src="resources/img/mini6.jpg" alt="miniatura de filme">
+                <a href="https://www.youtube.com/watch?v=p1PxGZzj1wQ&ab_channel=FluminenseFootballClub" target="_blank">
+                    <img class="box-image" src="resources/img/Flu2x0For.jpg" alt="click na imagem e vá ao vídeo" legend="click na imagem e vá ao vídeo">
+                </a>
             </div>
             <div class="item">
-                <img class="box-image" src="resources/img/mini7.jpg" alt="miniatura de filme">
+                <a href="https://www.youtube.com/watch?v=F3nUJ0XHlLQ&ab_channel=FluminenseFootballClub" target="_blank">
+                    <img class="box-image" src="resources/img/Flu2x1Cor.jpg" alt="click na imagem e vá ao vídeo" legend="click na imagem e vá ao vídeo">
+                </a>
             </div>
             <div class="item">
-                <img class="box-image" src="resources/img/mini8.jpg" alt="miniatura de filme">
+                <a href="https://www.youtube.com/watch?v=5cLxvAZD9cY&ab_channel=FluminenseFootballClub" target="_blank">
+                    <img class="box-image" src="resources/img/Flu2x1SantaFe.jpg" alt="click na imagem e vá ao vídeo" legend="click na imagem e vá ao vídeo">
+                </a>
             </div>
             <div class="item">
-                <img class="box-image" src="resources/img/mini9.jpg" alt="miniatura de filme">
+                <a href="https://www.youtube.com/watch?v=0y0zRxFDmQM&t=1s&ab_channel=FluminenseFootballClub" target="_blank">
+                    <img class="box-image" src="resources/img/flu3x0Chape.jpg" alt="click na imagem e vá ao vídeo" legend="click na imagem e vá ao vídeo">
+                </a>
             </div>
             <div class="item">
-                <img class="box-image" src="resources/img/mini10.jpg" alt="miniatura de filme">
+                <a href="https://www.youtube.com/watch?v=tK98kNiEAtI&ab_channel=FluminenseFootballClub" target="_blank">
+                    <img class="box-image" src="resources/img/Flu3x1Cea.jpg" alt="click na imagem e vá ao vídeo" legend="click na imagem e vá ao vídeo">
+                </a>
             </div>
         </div>
     </div>
+    <div class="carossel-filmes" id="giro-do-flu">
+        <h2>Giro do Flu</h2>
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=5rZ9Nmm5yh4&list=PLP_paXYqkDQ_Ga7oW0E0pIHcZn-TNsOk3&ab_channel=FluminenseFootballClub" target="_blank">
+                    <img class="box-image" src="resources/img/girodoflu.jpg" alt="click na imagem e vá ao vídeo" legend="click na imagem e vá ao vídeo">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=pp4tEZg0S4E&list=PLP_paXYqkDQ_Ga7oW0E0pIHcZn-TNsOk3&index=2&ab_channel=FluminenseFootballClub" target="_blank">
+                    <img class="box-image" src="resources/img/girodoflu.jpg" alt="click na imagem e vá ao vídeo" legend="click na imagem e vá ao vídeo">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=5FuCb0IPupA&list=PLP_paXYqkDQ_Ga7oW0E0pIHcZn-TNsOk3&index=3&ab_channel=FluminenseFootballClub" target="_blank">
+                    <img class="box-image" src="resources/img/girodoflu.jpg" alt="click na imagem e vá ao vídeo" legend="click na imagem e vá ao vídeo">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=NC1j7L7_upo&list=PLP_paXYqkDQ_Ga7oW0E0pIHcZn-TNsOk3&index=4&ab_channel=FluminenseFootballClub" target="_blank">
+                    <img class="box-image" src="resources/img/girodoflu.jpg" alt="click na imagem e vá ao vídeo" legend="click na imagem e vá ao vídeo">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=Jf6mMXxQmqQ&list=PLP_paXYqkDQ_Ga7oW0E0pIHcZn-TNsOk3&index=5&ab_channel=FluminenseFootballClub" target="_blank">
+                    <img class="box-image" src="resources/img/girodoflu.jpg" alt="click na imagem e vá ao vídeo" legend="click na imagem e vá ao vídeo">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=w5AKFwRSuIE&list=PLP_paXYqkDQ_Ga7oW0E0pIHcZn-TNsOk3&index=6&ab_channel=FluminenseFootballClub" target="_blank">
+                    <img class="box-image" src="resources/img/girodoflu.jpg" alt="click na imagem e vá ao vídeo" legend="click na imagem e vá ao vídeo">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=24vS8hX0GB8&list=PLP_paXYqkDQ_Ga7oW0E0pIHcZn-TNsOk3&index=7&ab_channel=FluminenseFootballClub" target="_blank">
+                    <img class="box-image" src="resources/img/girodoflu.jpg" alt="click na imagem e vá ao vídeo" legend="click na imagem e vá ao vídeo">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=Q67Ibs5ZPUI&list=PLP_paXYqkDQ_Ga7oW0E0pIHcZn-TNsOk3&index=8&ab_channel=FluminenseFootballClub" target="_blank">
+                    <img class="box-image" src="resources/img/girodoflu.jpg" alt="click na imagem e vá ao vídeo" legend="click na imagem e vá ao vídeo">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=lSm79AYxvfY&list=PLP_paXYqkDQ_Ga7oW0E0pIHcZn-TNsOk3&index=9&ab_channel=FluminenseFootballClub" target="_blank">
+                    <img class="box-image" src="resources/img/girodoflu.jpg" alt="click na imagem e vá ao vídeo" legend="click na imagem e vá ao vídeo">
+                </a>
+            </div>
+            <div class="item">
+                <a href="https://www.youtube.com/watch?v=4Wl8GzDhSKI&list=PLP_paXYqkDQ_Ga7oW0E0pIHcZn-TNsOk3&index=10&ab_channel=FluminenseFootballClub" target="_blank">
+                    <img class="box-image" src="resources/img/girodoflu.jpg" alt="click na imagem e vá ao vídeo" legend="click na imagem e vá ao vídeo">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Zairo Bastos - Criado em 05 de janeiro de 2022
+    </footer>
 
     <!--SCRIPT OWL-->
     <script src="js/owl/jquery.min.js"></script>
